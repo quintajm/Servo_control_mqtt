@@ -11,9 +11,9 @@ esp.osdebug(None)
 import gc
 gc.collect()
 
-ssid = '107E1C'
-password = 'J2C26C2B76556'
-mqtt_server = '192.168.0.29'
+ssid = 'WIFI'
+password = 'WIFIPASS'
+mqtt_server = 'BROKERIP'
 #EXAMPLE IP ADDRESS
 #mqtt_server = '192.168.1.144'
 client_id = ubinascii.hexlify(machine.unique_id())
